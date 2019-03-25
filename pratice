@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<! added language attribute)
+
+<head>
+<title>HTML Review</title>
+<! this is where metadata lives, it's not displayed
+Metadata typically define the document title, character set, styles, links, scripts, and other meta information.>
+</head>
+
+<body>
+<! this is how you leave comments in HTML
+! is called a bang>
+
+<h1>This is an h1 Heading</h1>
+<a href="#Links">Jump to Links</a>
+
+<p><code>br</code> makes a break <code>p</code> makes a paragraph
+<br>you can use <code>br</code> within other elements
+<br>you can use <code>br</code> multiple times to add more space</p>
+
+<br>
+<br>
+
+<p>html tags start and end the entire document
+<br><code>br</code> is an empty element
+<br>elements can be nested
+<br>this creates a new line without a space, unlike <code>p</code>
+<br>use lowercase and quotes for attributes
+<br>you can use "" and '' to show double quotes withing title attributes</p>
+
+<p>This is an example of code: <code>I can't figure out how to use tags within code elements </code> </p>
+
+<p><code>a</code>: attributes, such a size, width, height, etc.
+<br>href, hypertext reference
+<br>img, image
+<br>src, source
+<br>
+<br>
+<a href="https://hannahdiazart.com/">Add text after link before closing the attribute tag to create a text link</a>
+<img src="https://aaforringer.files.wordpress.com/2014/09/bear-table.jpg">
+<img src="https://i.imgflip.com/109y7u.jpg" width="300" alt="Bear at table">
+<br>You can input width="" and height="" manually, or it will scale to whichever dimension you choose
+<br>You can input alt="" to write a description of the photo if the image no longer exists</p>
+
+<p title="I'm a paragraph on style" style="color:red">I am a new paragraph
+<br>there are many, many more style options to add to this tag</p>
+<! add title attributes in paragraphs>
+
+<p title="This section is about headings">Headings range from sizes 1 (largest) to 6 (smallest)
+<br>these are what search engines use to index your pages
+<br>or you can use the <code>font-size</code> property to specify
+<br>such as:
+
+<h1 style="font-size:60px;">This is 60px</h1>
+
+this is not for making font bold or bigger, it's just for headings
+<br>
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+<p><code>hr</code> (horizonal rule) is for breaking the HTML theme in a page</p>
+
+<p><a href="https://www.w3schools.com/tags/default.asp">This is an HTML Element Reference</a></p>
+
+<p title="This section is about paragraphs">browsers automatically add some white space before and after a paragraph
+<br> 
+
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser 
+ignores it.
+</p>
+
+<pre>
+  Using pre will allow you to controll spaces and line breaks
+    Hello
+H e l l     o
+</pre>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+
+<br>
+<br>
+
+<p style="background-image:url('clouds.jpg');">
+<br>
+<br>
+<br>
+<br>
+</p>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+<style>
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+
+<h2 id="Links">Links</h2>
+
+
+
+<! THIS IS THE BOTTOM>
+</body>
+</html>
